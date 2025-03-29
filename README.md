@@ -9,8 +9,11 @@ from tensorflow.keras.datasets import mnist
 
 ## Project Structure
 data --> Code to retrieve the dataset
+
 models --> Neural Network (neuron.py, layer.py, neural_network.py)
+
 Train.py --> Neural Network initialisation and training
+
 mnist_model.npy --> Save of the model after training
 
 ## Example Results
