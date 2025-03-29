@@ -9,18 +9,19 @@ from tensorflow.keras.datasets import mnist
 
 ## Project Structure
 
-├── src/                # Source code for the neural network
-│   ├── neuron.py       # Neuron class
-│   ├── layer.py        # Layer class
-│   ├── network.py      # Network architecture and training
-│   ├── train.py        # Training loop
-│   └── test.py         # Evaluation code
-├── data/               # (Optional) Data loading or storage
-├── notebooks/          # Jupyter notebooks (for experiments or visualizations)
-├── models/             # Saved model weights (optional)
-├── README.md           # This file
-├── requirements.txt    # Python dependencies
-└── .gitignore          # Files ignored by Git
+├── src/                # Code source du réseau de neurones
+│   ├── neuron.py       # Classe Neuron
+│   ├── layer.py        # Classe Layer
+│   ├── network.py      # Architecture du réseau et entraînement
+│   ├── train.py        # Boucle d'entraînement
+│   └── test.py         # Code d'évaluation
+├── data/               # (Optionnel) Chargement ou stockage des données
+├── notebooks/          # Notebooks Jupyter (pour les expérimentations ou visualisations)
+├── models/             # Poids du modèle sauvegardés (optionnel)
+├── README.md           # Ce fichier
+├── requirements.txt    # Dépendances Python
+└── .gitignore          # Fichiers à ignorer par Git
+
 
 
 ## Example Results
