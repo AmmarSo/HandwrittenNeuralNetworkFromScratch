@@ -1,10 +1,13 @@
-🧠 Neural Network from Scratch - MNIST Digit Recognition
+# Neural Network from Scratch - MNIST Digit Recognition
 
-This project implements a neural network from scratch (without using machine learning libraries like TensorFlow or PyTorch) to recognize handwritten digits from the MNIST dataset.
+## This project implements a neural network from scratch (without using machine learning libraries like TensorFlow or PyTorch) to recognize handwritten digits from the MNIST dataset.
 
-📘 Read the full article on Medium
+Read the full article on Medium
 
-📂 Project Structure
+The dataset is loaded using:
+from tensorflow.keras.datasets import mnist
+
+## Project Structure
 
 ├── src/                # Source code for the neural network
 │   ├── neuron.py       # Neuron class
@@ -19,81 +22,49 @@ This project implements a neural network from scratch (without using machine lea
 ├── requirements.txt    # Python dependencies
 └── .gitignore          # Files ignored by Git
 
-🚀 Getting Started
 
-1. Clone the repository
+## Example Results
 
-git clone https://github.com/<your-username>/mnist-neural-network-from-scratch.git
-cd mnist-neural-network-from-scratch
+| Epoch | Learning Rate | Layers               | Accuracy |
+|-------|---------------|----------------------|----------|
+| 1     | 0.001         | [256, 128, 64]       | 82.06%   |
+| 1     | 0.001         | [350]                | 93.30%   |
+| 1     | 0.001         | [256, 128, 64, 32]   | 75.48%   |
+| 2     | 0.001         | [350]                | 94.66%   |
+| 10    | 0.001         | [350]                | 87.77%   |
+| 1     | 0.0001        | [350]                | 76.05%   |
+| 3     | 0.001         | [350]                | 95.55%   |
+| 4     | 0.001         | [350]                | 77.20%   |
 
-2. Create a virtual environment (optional)
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+## Technologies Used
 
-3. Install dependencies
-
-pip install -r requirements.txt
-
-4. Run the training
-
-python src/train.py
-
-5. Evaluate the model
-
-python src/test.py
-
-📊 Example Results
-
-Metric
-
-Value
-
-Accuracy
-
-~92%
-
-Loss
-
-Decreasing
-
-Hidden Layers
-
-2
-
-Activation
-
-Sigmoid
-
-🧪 Technologies Used
-
-Python 3.x
+Python 3.11
 
 NumPy
 
-MNIST Dataset (from Yann LeCun's website)
+MNIST Dataset (via tensorflow.keras.datasets)
 
-🧠 Core Concepts
+## Core Concepts
 
-Forward Propagation
+- Forward Propagation
 
-Backpropagation
+- Backpropagation
 
-Gradient Descent
+- Gradient Descent
 
-Weight & Bias Initialization
+- Weight & Bias Initialization
 
-Cost Function (Mean Squared Error)
+- Cost Function (Mean Squared Error)
 
-📄 License
+## License
 
 MIT License © 2025 Ammar Souchon
 
-✍️ Author
+## Author
 
-Ammar SouchonFollow me on Medium
+AmmarSo Follow me on Medium 
 
-🌟 Show your support
+## Show your support
 
 If you like this project, please consider leaving a ⭐ on the repository!
-
