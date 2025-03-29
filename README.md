@@ -7,22 +7,6 @@ Read the full article on Medium
 The dataset is loaded using:
 from tensorflow.keras.datasets import mnist
 
-## Project Structure
-
-├── src/                # Code source du réseau de neurones
-│   ├── neuron.py       # Classe Neuron
-│   ├── layer.py        # Classe Layer
-│   ├── network.py      # Architecture du réseau et entraînement
-│   ├── train.py        # Boucle d'entraînement
-│   └── test.py         # Code d'évaluation
-├── data/               # (Optionnel) Chargement ou stockage des données
-├── notebooks/          # Notebooks Jupyter (pour les expérimentations ou visualisations)
-├── models/             # Poids du modèle sauvegardés (optionnel)
-├── README.md           # Ce fichier
-├── requirements.txt    # Dépendances Python
-└── .gitignore          # Fichiers à ignorer par Git
-
-
 
 ## Example Results
 
