@@ -16,7 +16,7 @@ Train.py --> Neural Network initialisation and training
 
 mnist_model.npy --> Save of the model after training
 
-## Example Results
+## Results
 
 | Epoch | Learning Rate | Layers               | Accuracy |
 |-------|---------------|----------------------|----------|
