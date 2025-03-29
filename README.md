@@ -50,10 +50,6 @@ MNIST Dataset (via tensorflow.keras.datasets)
 
 - Cost Function (Mean Squared Error)
 
-## License
-
-MIT License © 2025 Ammar Souchon
-
 ## Author
 
 AmmarSo Follow me on Medium 
